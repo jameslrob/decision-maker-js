@@ -1,0 +1,1 @@
+document.querySelector("div#test").innerHTML = "Script Text";
