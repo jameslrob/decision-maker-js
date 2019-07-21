@@ -1,5 +1,14 @@
-div#test {
-    display: inline-block;
+body {
+    background: #fafafa;
+}
+
+div.input-container {
+    display: block;
+    margin: auto;
     padding: 10px;
-    box-shadow: 2px 2px 2px;
+    width: 50%;
+    text-align: center;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 1px 0 rgba(0,0,0,.2);
 }
