@@ -1,14 +1,62 @@
 body {
     background: #fafafa;
+    margin: 0;
+    padding: 0;
 }
 
 div.input-container {
     display: block;
-    margin: auto;
+    margin: 3.4em auto;
     padding: 10px;
     width: 50%;
     text-align: center;
     background: white;
     border-radius: 3px;
     box-shadow: 0 2px 1px 0 rgba(0,0,0,.2);
+}
+
+header, footer {
+    display: block;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+header {
+    top: 0;
+    padding: 0;
+    border-bottom: 1px solid #E0E0E0;
+    background: white;
+}
+
+footer {
+    bottom: 0;
+    padding: 1.8em;
+    border-top: 1px solid #E0E0E0;
+    background: transparent;
+}
+
+header div {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    height: 1em;
+}
+
+div.header-item {
+    padding: 1.2em;
+    height: 2.4em;
+}
+
+div#footer-fab {
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-right: 0;
+    width: 4.8em;
+    height: 4.8em;
+    background: #d33;
+    border-radius: 2.4em;
 }
